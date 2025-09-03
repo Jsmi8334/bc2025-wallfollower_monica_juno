@@ -6,9 +6,29 @@
 
 
 int main(int argc, const char *argv[])
+
 {
+    drive(0.25, 0, 0);
+    sleepFor(2);
+    drive(0,0,0.78);
+    sleepFor(2);
+    drive(0.25,0,0); 
+    sleepFor(2);
+    drive(0,0,0.78); 
+    sleepFor(2);
+    drive(0.25,0,0); 
+    sleepFor(2);
+    drive(0,0,0.78); 
+    sleepFor(2);
+    drive(0.25,0,0);
+    sleepFor(2);
+
+    
+
     /**
-     * TODO: (P1.1) Write code to make the robot drive in a square. Then,
+     * TODO: (P1.1) Write code to m
+     
+     ake the robot drive in a square. Then,
      * modify your code so that the robot drives in a square 3 times.
      *
      * HINT: A function to send velocity commands to the robot is provided. To
@@ -26,5 +46,6 @@ int main(int argc, const char *argv[])
 
     // Stop the robot.
     drive(0, 0, 0);
+    //sleepFor(1);
     return 0;
 }
